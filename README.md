@@ -6,4 +6,5 @@
 #效果图
 
 ####加载图片纹理
+
 ![加载图片纹理](https://github.com/HYAdonisCoding/Adonis_20190201_OpenGL_ES/blob/master/images/加载图片纹理.png)
