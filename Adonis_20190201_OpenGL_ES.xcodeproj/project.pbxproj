@@ -11,11 +11,12 @@
 		7A901C5B22051FEA008087D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A901C5A22051FEA008087D1 /* ViewController.m */; };
 		7A901C5E22051FEA008087D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A901C5C22051FEA008087D1 /* Main.storyboard */; };
 		7A901C6122051FEA008087D1 /* Adonis_20190201_OpenGL_ES.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A901C5F22051FEA008087D1 /* Adonis_20190201_OpenGL_ES.xcdatamodeld */; };
-		7A901C6322051FED008087D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A901C6222051FED008087D1 /* Assets.xcassets */; };
 		7A901C6622051FED008087D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A901C6422051FED008087D1 /* LaunchScreen.storyboard */; };
 		7A901C6922051FED008087D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A901C6822051FED008087D1 /* main.m */; };
 		7A901C7322051FEE008087D1 /* Adonis_20190201_OpenGL_ESTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A901C7222051FEE008087D1 /* Adonis_20190201_OpenGL_ESTests.m */; };
 		7A901C7E22051FEE008087D1 /* Adonis_20190201_OpenGL_ESUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A901C7D22051FEE008087D1 /* Adonis_20190201_OpenGL_ESUITests.m */; };
+		7A901C8C2205343B008087D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A901C8B2205343B008087D1 /* Assets.xcassets */; };
+		7A901C8E2205344E008087D1 /* cTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A901C8D2205344E008087D1 /* cTest.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,6 @@
 		7A901C5A22051FEA008087D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A901C5D22051FEA008087D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A901C6022051FEA008087D1 /* Adonis_20190201_OpenGL_ES.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Adonis_20190201_OpenGL_ES.xcdatamodel; sourceTree = "<group>"; };
-		7A901C6222051FED008087D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A901C6522051FED008087D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A901C6722051FED008087D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A901C6822051FED008087D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		7A901C7922051FEE008087D1 /* Adonis_20190201_OpenGL_ESUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adonis_20190201_OpenGL_ESUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A901C7D22051FEE008087D1 /* Adonis_20190201_OpenGL_ESUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adonis_20190201_OpenGL_ESUITests.m; sourceTree = "<group>"; };
 		7A901C7F22051FEE008087D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A901C8B2205343B008087D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A901C8D2205344E008087D1 /* cTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cTest.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +109,11 @@
 				7A901C5722051FEA008087D1 /* AppDelegate.m */,
 				7A901C5922051FEA008087D1 /* ViewController.h */,
 				7A901C5A22051FEA008087D1 /* ViewController.m */,
+				7A901C8B2205343B008087D1 /* Assets.xcassets */,
 				7A901C5C22051FEA008087D1 /* Main.storyboard */,
-				7A901C6222051FED008087D1 /* Assets.xcassets */,
 				7A901C6422051FED008087D1 /* LaunchScreen.storyboard */,
 				7A901C6722051FED008087D1 /* Info.plist */,
+				7A901C8D2205344E008087D1 /* cTest.jpg */,
 				7A901C6822051FED008087D1 /* main.m */,
 				7A901C5F22051FEA008087D1 /* Adonis_20190201_OpenGL_ES.xcdatamodeld */,
 			);
@@ -239,8 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A901C6622051FED008087D1 /* LaunchScreen.storyboard in Resources */,
-				7A901C6322051FED008087D1 /* Assets.xcassets in Resources */,
+				7A901C8C2205343B008087D1 /* Assets.xcassets in Resources */,
 				7A901C5E22051FEA008087D1 /* Main.storyboard in Resources */,
+				7A901C8E2205344E008087D1 /* cTest.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
