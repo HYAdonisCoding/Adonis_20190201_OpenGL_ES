@@ -17,6 +17,10 @@
 		7A901C7E22051FEE008087D1 /* Adonis_20190201_OpenGL_ESUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A901C7D22051FEE008087D1 /* Adonis_20190201_OpenGL_ESUITests.m */; };
 		7A901C8C2205343B008087D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A901C8B2205343B008087D1 /* Assets.xcassets */; };
 		7A901C8E2205344E008087D1 /* cTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A901C8D2205344E008087D1 /* cTest.jpg */; };
+		7AD3834F22110F5600B1E9F9 /* CCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3834E22110F5600B1E9F9 /* CCView.m */; };
+		7AD3835222110F6700B1E9F9 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3835122110F6700B1E9F9 /* CCViewController.m */; };
+		7AD3835522114BC800B1E9F9 /* shaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 7AD3835422114BC800B1E9F9 /* shaderv.vsh */; };
+		7AD3835722114BD900B1E9F9 /* shaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 7AD3835622114BD900B1E9F9 /* shaderf.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,12 @@
 		7A901C7F22051FEE008087D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A901C8B2205343B008087D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A901C8D2205344E008087D1 /* cTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cTest.jpg; sourceTree = "<group>"; };
+		7AD3834D22110F5600B1E9F9 /* CCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCView.h; sourceTree = "<group>"; };
+		7AD3834E22110F5600B1E9F9 /* CCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCView.m; sourceTree = "<group>"; };
+		7AD3835022110F6700B1E9F9 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		7AD3835122110F6700B1E9F9 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		7AD3835422114BC800B1E9F9 /* shaderv.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderv.vsh; sourceTree = "<group>"; };
+		7AD3835622114BD900B1E9F9 /* shaderf.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderf.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,11 @@
 				7A901C5722051FEA008087D1 /* AppDelegate.m */,
 				7A901C5922051FEA008087D1 /* ViewController.h */,
 				7A901C5A22051FEA008087D1 /* ViewController.m */,
+				7AD3834D22110F5600B1E9F9 /* CCView.h */,
+				7AD3834E22110F5600B1E9F9 /* CCView.m */,
+				7AD3835022110F6700B1E9F9 /* CCViewController.h */,
+				7AD3835122110F6700B1E9F9 /* CCViewController.m */,
+				7AD3835322114BAE00B1E9F9 /* Shader */,
 				7A901C8B2205343B008087D1 /* Assets.xcassets */,
 				7A901C5C22051FEA008087D1 /* Main.storyboard */,
 				7A901C6422051FED008087D1 /* LaunchScreen.storyboard */,
@@ -136,6 +151,15 @@
 				7A901C7F22051FEE008087D1 /* Info.plist */,
 			);
 			path = Adonis_20190201_OpenGL_ESUITests;
+			sourceTree = "<group>";
+		};
+		7AD3835322114BAE00B1E9F9 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				7AD3835422114BC800B1E9F9 /* shaderv.vsh */,
+				7AD3835622114BD900B1E9F9 /* shaderf.fsh */,
+			);
+			path = Shader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +265,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD3835522114BC800B1E9F9 /* shaderv.vsh in Resources */,
 				7A901C6622051FED008087D1 /* LaunchScreen.storyboard in Resources */,
 				7A901C8C2205343B008087D1 /* Assets.xcassets in Resources */,
+				7AD3835722114BD900B1E9F9 /* shaderf.fsh in Resources */,
 				7A901C5E22051FEA008087D1 /* Main.storyboard in Resources */,
 				7A901C8E2205344E008087D1 /* cTest.jpg in Resources */,
 			);
@@ -271,8 +297,10 @@
 			files = (
 				7A901C6122051FEA008087D1 /* Adonis_20190201_OpenGL_ES.xcdatamodeld in Sources */,
 				7A901C5B22051FEA008087D1 /* ViewController.m in Sources */,
+				7AD3835222110F6700B1E9F9 /* CCViewController.m in Sources */,
 				7A901C6922051FED008087D1 /* main.m in Sources */,
 				7A901C5822051FEA008087D1 /* AppDelegate.m in Sources */,
+				7AD3834F22110F5600B1E9F9 /* CCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
